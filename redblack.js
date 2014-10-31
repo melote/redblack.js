@@ -385,7 +385,7 @@
     };
     
     function find(node, key) {
-        if (key === null) return null;  //fix the issue that null key cased 100% cpu useage.
+        if (key === null) return null;
         while (node !== null) {
             if (key === node.key) {
                 return node;
